@@ -47,17 +47,17 @@ SLIP_VERIFY_API_URL = os.getenv(
     "https://slips.zelthr.rest/verify",
 )
 
-NEXGEN_MANAGEMENT_KEY = os.getenv("NEXGEN_MANAGEMENT_KEY", "nexgenapidev")
+NEXGEN_MANAGEMENT_KEY = os.getenv("NEXGEN_MANAGEMENT_KEY", "")
 
 # ---------------------------------------------------------
 # MySQL
 # ---------------------------------------------------------
 
-MYSQL_HOST = "15.235.227.117"
+MYSQL_HOST = ""
 MYSQL_PORT = 3306
-MYSQL_USER = "qtl0nexgenap_api"
-MYSQL_PASSWORD = "vBnDUn2E9gJC4YEe7Y8v"
-MYSQL_DATABASE = "qtl0nexgenap_api"
+MYSQL_USER = ""
+MYSQL_PASSWORD = ""
+MYSQL_DATABASE = ""
 
 # =========================================================
 # LOGGING
